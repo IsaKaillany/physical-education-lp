@@ -15,7 +15,7 @@ export function Header() {
 
     return (
         <nav
-            className={`flex items-center justify-between gap-4 text-white sticky top-0 transition-all duration-300 mx-14 max-sm:mx-8 ${
+            className={`flex items-center justify-between gap-4 text-white sticky top-0 transition-all duration-300 px-14 max-sm:px-8 ${
                 isScrolled ? "bg-[#0C1221] w-full" : "bg-transparent"
             }`}
         >
