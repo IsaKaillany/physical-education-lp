@@ -21,12 +21,12 @@ export function Header() {
         >
             <img src={titleLogo} className="max-sm:size-1/2 my-1" />
             <div className="flex gap-8 justify-center items-center bg-[#0C1221] w-[480px] h-16 rounded-full p-5 max-md:hidden">
-                <a className="cursor-pointer hover:text-[#0284C7]">Home</a>
-                <a className="cursor-pointer hover:text-[#0284C7]">About</a>
-                <a className="cursor-pointer hover:text-[#0284C7]">App</a>
-                <a className="cursor-pointer hover:text-[#0284C7]">Contact</a>
+                <a href="#" className="cursor-pointer hover:text-[#EA9F0C]">Home</a>
+                <a href="#about" className="cursor-pointer hover:text-[#EA9F0C]">About</a>
+                <a href="#app" className="cursor-pointer hover:text-[#EA9F0C]">App</a>
+                <a href="#contact" className="cursor-pointer hover:text-[#EA9F0C]">Contact</a>
             </div>
-            <button className="w-36 h-16 rounded-full bg-[#0C1221] flex justify-center items-center p-4 hover:text-[#0284C7]">
+            <button className="w-36 h-16 rounded-full bg-[#0C1221] flex justify-center items-center p-4 hover:text-[#EA9F0C]">
                 Download App
             </button>
         </nav>
