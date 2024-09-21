@@ -12,26 +12,22 @@ export default function SectionTwo() {
         >
             <CardInfo
                 icon={AiOutlineQuestionCircle}
-                // iconSize="28"
                 title="O que é?"
                 content="A Senior TechFit será uma aplicação inovadora especialmente desenvolvida para responder às necessidades dos cidadãos seniores."
             />
             <CardInfo
                 icon={TbTargetArrow}
-                // iconSize="28"
                 title="Objetivo"
                 content="O objetivo será incentivar e facilitar a prática de exercícios físicos, expondo exercícios simples e de fácil execução, promovendo a saúde e o bem-estar dos idosos. "
             />
             <CardInfo
                 icon={RiHeartPulseLine}
-                // iconSize="28"
                 title="Impacto na saúde"
                 content="Com o Senior TechFit facilitando a prática de exercício físico, os idosos beneficiarão em termos da sua saúde cardiovascular, do controle de doenças crônicas e do seu bem-estar mental."
             />
             <CardInfo
                 icon={GrGroup}
-                // iconSize="28"
-                title="Impacto na sociedade"
+                title="Impacto social"
                 content="Na sociedade, o incentivo ao estilo de vida ativo para idosos reduz a sobrecarga no sistema de saúde e promove uma comunidade mais integrada, com maior interação social e menos isolamento."
             />
         </section>

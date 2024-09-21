@@ -12,13 +12,13 @@ export default function SectionOne() {
                     data-aos="fade-right"
                     className="text-white w-[580px] mt-36 text-justify max-sm:w-full"
                 >
-                    <p className="text-4xl max-sm:text-3xl">
+                    <p className="text-5xl max-sm:text-4xl mb-4">
                         Aprenda a
                         <span className="text-[#FFB11A]"> exercitar</span> e
                         <span className="text-[#FFB11A]"> cuidar</span> do seu
                         corpo de forma simples e saudável.
                     </p>
-                    <p className="text-xl mt-2">
+                    <p className="text-2xl mt-2">
                         A academia em suas mãos, com a melhor avaliação do
                         mercado.{" "}
                         <span className="text-[#FFB11A]">

@@ -17,7 +17,6 @@ export default function CardInfo({ icon: Icon, title, content }) {
             data-aos="fade-up"
             className="bg-white/[0.03] w-80 h-[400px] flex flex-col items-center px-4 pt-5 rounded-xl ring ring-[#21325A] ring-inset shadow-2xl shadow-black mx-4 hover:scale-125"
         >
-            {/* <Icon className={`size-${iconSize} text-white`} /> */}
             <Icon className="text-white size-28" />
             <h1 className="text-[#EA9F0C] font-bold mt-2 text-2xl uppercase">
                 {title}
@@ -29,7 +28,6 @@ export default function CardInfo({ icon: Icon, title, content }) {
 
 CardInfo.propTypes = {
     icon: PropTypes.elementType.isRequired,
-    // iconSize: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     content: PropTypes.string.isRequired,
 };
