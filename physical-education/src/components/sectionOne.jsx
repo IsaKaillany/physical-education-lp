@@ -13,15 +13,17 @@ export default function SectionOne() {
                     className="text-white w-[580px] mt-36 text-justify max-sm:w-full"
                 >
                     <p className="text-4xl max-sm:text-3xl">
-                        Learn how to{" "}
-                        <span className="text-[#FFB11A]">exercise</span> and{" "}
-                        <span className="text-[#FFB11A]">take care</span> of
-                        your body in a simple and healthy way.
+                        Aprenda a
+                        <span className="text-[#FFB11A]"> exercitar</span> e
+                        <span className="text-[#FFB11A]"> cuidar</span> do seu
+                        corpo de forma simples e saudável.
                     </p>
                     <p className="text-xl mt-2">
-                        The gym in your hands, with the best evaluation on the
-                        market.{" "}
-                        <span className="text-[#FFB11A]">Feel young again</span>
+                        A academia em suas mãos, com a melhor avaliação do
+                        mercado.{" "}
+                        <span className="text-[#FFB11A]">
+                            Sinta-se jovem novamente
+                        </span>
                         .
                     </p>
                 </section>
