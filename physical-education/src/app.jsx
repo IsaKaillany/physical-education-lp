@@ -1,4 +1,5 @@
 import SectionOne from "./components/sectionOne";
+import SectionThree from "./components/sectionThree";
 import SectionTwo from "./components/sectionTwo";
 
 export function App() {
@@ -6,6 +7,7 @@ export function App() {
         <div>
             <SectionOne />
             <SectionTwo/>
+            <SectionThree/>
         </div>
     );
 }
