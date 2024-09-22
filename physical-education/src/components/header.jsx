@@ -21,15 +21,15 @@ export function Header() {
             }`}
         >
             <img src={titleLogo} className="max-sm:size-1/2 my-1" />
-            <div className="flex gap-8 justify-center items-center bg-[#0C1221] w-[480px] h-16 rounded-full p-5 max-md:hidden">
+            <div className="flex gap-10 justify-center items-center bg-[#0C1221] w-[480px] h-16 rounded-full p-5 max-md:hidden text-lg">
                 <a href="#" className="cursor-pointer hover:text-[#EA9F0C]">
-                    Home
+                    Início
                 </a>
                 <a
                     href="#about"
                     className="cursor-pointer hover:text-[#EA9F0C]"
                 >
-                    About
+                    Sobre
                 </a>
                 <a href="#app" className="cursor-pointer hover:text-[#EA9F0C]">
                     App
@@ -38,7 +38,7 @@ export function Header() {
                     href="#contact"
                     className="cursor-pointer hover:text-[#EA9F0C]"
                 >
-                    Contact
+                    Contato
                 </a>
             </div>
             <button className="w-36 h-16 rounded-full bg-[#0C1221] flex justify-center items-center gap-2 p-4 hover:text-[#EA9F0C]">
