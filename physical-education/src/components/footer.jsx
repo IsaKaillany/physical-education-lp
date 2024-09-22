@@ -41,9 +41,9 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-wrap items-center justify-center border-t-2 max-md:mx-10 mx-52">
-                <img src="/ufrn-logo.png" alt="" />
-                <img src="/labican-logo.png" alt="" />
-                <img src="/personal-life-logo.png" alt="" />
+                <img src="/assets/ufrn-logo.png" alt="" />
+                <img src="/assets/labican-logo.png" alt="" />
+                <img src="/assets/personal-life-logo.png" alt="" />
             </div>
         </footer>
     );

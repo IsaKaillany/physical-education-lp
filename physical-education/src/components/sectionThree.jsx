@@ -15,17 +15,17 @@ export default function SectionThree() {
             <div className="flex flex-col gap-4 pb-28 max-md:pb-20">
                 <BenefitsCard
                     animation="fade-right"
-                    image="/img1.png"
+                    image="/assets/img1.png"
                     content="Uma variedade de exercícios que podem ser realizados usando apenas o peso do corpo."
                 />
                 <BenefitsCard
                     animation="fade-left"
-                    image="/img2.png"
+                    image="/assets/img2.png"
                     content="Instruções e animações claras para garantir que os usuários executem os movimentos corretamente e com segurança."
                 />
                 <BenefitsCard
                     animation="fade-right"
-                    image="/img1.png"
+                    image="/assets/img1.png"
                     content="Programas de exercícios personalizados adaptados às capacidades e limitações individuais."
                 />
             </div>
