@@ -9,9 +9,9 @@ export default function BenefitsCard({ animation, image, content }) {
             <img
                 src={image}
                 alt=""
-                className="w-[350px] my-6 rounded-2xl shadow-lg shadow-gray-900"
+                className="w-[350px] max-[768px]:w-[200px] my-6 rounded-2xl shadow-lg shadow-gray-900"
             />
-            <p className="text-right max-md:text-justify text-white max-md:text-xl text-3xl my-6 font-semibold">
+            <p className="text-right max-md:text-justify text-white max-sm:text-xl max-[768px]:text-xl text-3xl my-6 font-semibold">
                 {content}
             </p>
         </div>

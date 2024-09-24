@@ -3,7 +3,7 @@ import { AiOutlineMail } from "react-icons/ai";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#21325A]">
+        <footer id="contact" className="bg-[#21325A]">
             <div className="text-white flex max-md:flex-col max-md:gap-6 max-md:items-center items-start justify-evenly py-10">
                 <div>
                     <h1 className="font-bold text-lg pb-2 ">Orientadores:</h1>

@@ -20,7 +20,10 @@ export function Header() {
                 isScrolled ? "bg-[#0C1221] w-full" : "bg-transparent"
             }`}
         >
-            <img src={titleLogo} className="max-sm:size-1/2 my-1" />
+            <img
+                src={titleLogo}
+                className="max-sm:size-1/2 my-1 max-[768px]:size-1/4"
+            />
             <div className="flex gap-10 justify-center items-center bg-[#0C1221] w-[480px] h-16 rounded-full p-5 max-md:hidden text-lg">
                 <a href="#" className="cursor-pointer hover:text-[#EA9F0C]">
                     Início

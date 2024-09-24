@@ -19,7 +19,7 @@ export default function SectionThree() {
                     content="Uma variedade de exercícios que podem ser realizados usando apenas o peso do corpo."
                 />
                 <BenefitsCard
-                    animation="fade-left"
+                    animation="fade-right"
                     image="/assets/img2.png"
                     content="Instruções e animações claras para garantir que os usuários executem os movimentos corretamente e com segurança."
                 />
