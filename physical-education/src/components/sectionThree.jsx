@@ -4,7 +4,7 @@ export default function SectionThree() {
     return (
         <section
             id="app"
-            className="flex flex-col max-md:gap-6 items-center justify-center bg-[#16223D] p-6"
+            className="flex flex-col max-md:gap-6 items-center justify-center bg-[#16223D] p-6 overflow-x-hidden"
         >
             <h1 className="text-white text-center font-semibold text-4xl max-sm:text-2xl pb-16 max-md:pb-8">
                 O que a{" "}
@@ -19,7 +19,7 @@ export default function SectionThree() {
                     content="Uma variedade de exercícios que podem ser realizados usando apenas o peso do corpo."
                 />
                 <BenefitsCard
-                    animation="fade-right"
+                    animation="fade-left"
                     image="/assets/img2.png"
                     content="Instruções e animações claras para garantir que os usuários executem os movimentos corretamente e com segurança."
                 />
