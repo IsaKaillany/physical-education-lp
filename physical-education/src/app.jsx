@@ -11,6 +11,7 @@ export function App() {
             <SectionTwo />
             <SectionThree />
             <SectionFour />
+            <img src="/assets/about.png" alt="" className="w-full max-sm:hidden pb-16 bg-[#16223D]"/>
             <Footer />
         </div>
     );

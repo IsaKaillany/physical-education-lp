@@ -1,35 +1,59 @@
-import CardInfo from "./cards";
-import { TbTargetArrow } from "react-icons/tb";
-import { RiHeartPulseLine } from "react-icons/ri";
-import { AiOutlineQuestionCircle } from "react-icons/ai";
-import { GrGroup } from "react-icons/gr";
+import { MdOutlineSportsGymnastics } from "react-icons/md";
+import { RiBook2Line } from "react-icons/ri";
+import { RiArrowDownWideLine } from "react-icons/ri";
 
 export default function SectionThree() {
     return (
-        <section
-            id="about"
-            className="flex flex-wrap gap-2 max-md:gap-6 items-center justify-center py-28 bg-gradient-to-t from-[#16223D] to-gray-950"
-        >
-            <CardInfo
-                icon={AiOutlineQuestionCircle}
-                title="O que é?"
-                content="A Senior TechFit será uma aplicação inovadora especialmente desenvolvida para responder às necessidades dos cidadãos seniores."
-            />
-            <CardInfo
-                icon={TbTargetArrow}
-                title="Objetivo"
-                content="O objetivo será incentivar e facilitar a prática de exercícios físicos, expondo exercícios simples e de fácil execução, promovendo a saúde e o bem-estar dos idosos. "
-            />
-            <CardInfo
-                icon={RiHeartPulseLine}
-                title="Impacto na saúde"
-                content="Com o Senior TechFit facilitando a prática de exercício físico, os idosos beneficiarão em termos da sua saúde cardiovascular, do controle de doenças crônicas e do seu bem-estar mental."
-            />
-            <CardInfo
-                icon={GrGroup}
-                title="Impacto social"
-                content="Na sociedade, o incentivo ao estilo de vida ativo para idosos reduz a sobrecarga no sistema de saúde e promove uma comunidade mais integrada, com maior interação social e menos isolamento."
-            />
+        <section className="flex flex-col items-center justify-center bg-[#21325A] px-14 max-md:px-11">
+            <div className="flex max-sm:flex-col items-center justify-center gap-14 py-20">
+                <div
+                    className="flex flex-col items-center justify-center gap-4"
+                    data-aos="fade-down"
+                >
+                    <div className="bg-zinc-100 text-[#16223D] rounded-full p-5">
+                        <RiBook2Line size={60} />
+                    </div>
+                    <p className="text-white text-center text-xl max-md:text-xl font-semibold">
+                        A ideia para a criação deste aplicativo surgiu a partir
+                        do trabalho de Thiago Santos de Araújo, autor do{" "}
+                        <span className="text-[#EA9F0C]">
+                            &quot;Manual do Idoso Ativo&quot;
+                        </span>
+                        . Esse manual oferece uma série de exercícios
+                        classificados por categorias específicas, como
+                        exercícios cardiovasculares e cognitivos, voltados para
+                        a população idosa, com o objetivo de melhorar sua saúde
+                        e qualidade de vida.
+                    </p>
+                </div>
+                <div
+                    className="flex flex-col items-center justify-center gap-4"
+                    data-aos="fade-down"
+                >
+                    <div className="bg-zinc-100 text-[#16223D] rounded-full p-5">
+                        <MdOutlineSportsGymnastics size={60} />
+                    </div>
+
+                    <p className="text-white text-center text-xl max-md:text-xl font-semibold">
+                        Inspirados por essa iniciativa e com o intuito de apoiar
+                        o projeto{" "}
+                        <span className="text-[#EA9F0C]">
+                            &quot;Academia ao Ar Livre&quot;
+                        </span>{" "}
+                        do governo federal brasileiro, surgiu o conceito do
+                        Senior TechFit. Este aplicativo é o primeiro passo de um
+                        grande projeto, pensado para levar o conceito de
+                        &quot;academia nas mãos&quot; para o público da terceira
+                        idade, de maneira acessível e positiva.
+                    </p>
+                </div>
+            </div>
+            <a href="#app" className="cursor-pointer" data-aos="fade-up">
+                <RiArrowDownWideLine
+                    size={65}
+                    className="text-white hover:text-[#EA9F0C]"
+                />
+            </a>
         </section>
     );
 }
