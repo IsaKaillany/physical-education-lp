@@ -1,36 +1,35 @@
-import BenefitsCard from "./benefitsCard";
+import CardInfo from "./cards";
+import { TbTargetArrow } from "react-icons/tb";
+import { RiHeartPulseLine } from "react-icons/ri";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
+import { GrGroup } from "react-icons/gr";
 
 export default function SectionThree() {
     return (
         <section
-            id="app"
-            className="flex flex-col max-md:gap-6 items-center justify-center bg-[#16223D] p-6 overflow-x-hidden"
+            id="about"
+            className="flex flex-wrap gap-2 max-md:gap-6 items-center justify-center py-28 bg-gradient-to-t from-[#16223D] to-gray-950"
         >
-            <h1 className="text-white text-center font-semibold text-4xl max-sm:text-2xl pb-16 max-md:pb-8">
-                O que a{" "}
-                <strong className="text-[#EA9F0C]">Senior TechFit</strong> tem a
-                oferecer
-            </h1>
-
-            <div className="flex flex-col gap-4 pb-28 max-md:pb-20">
-                <BenefitsCard
-                    animation="fade-right"
-                    image="/assets/img1.png"
-                    content="Uma variedade de exercícios que podem ser realizados usando apenas o peso do corpo."
-                />
-                <BenefitsCard
-                    animation="fade-left"
-                    image="/assets/img2.png"
-                    content="Instruções e animações claras para garantir que os usuários executem os movimentos corretamente e com segurança."
-                />
-                <BenefitsCard
-                    animation="fade-right"
-                    image="/assets/img1.png"
-                    content="Programas de exercícios personalizados adaptados às capacidades e limitações individuais."
-                />
-            </div>
-
-            <img data-aos="fade-up" src="/about.png" alt="" />
+            <CardInfo
+                icon={AiOutlineQuestionCircle}
+                title="O que é?"
+                content="A Senior TechFit será uma aplicação inovadora especialmente desenvolvida para responder às necessidades dos cidadãos seniores."
+            />
+            <CardInfo
+                icon={TbTargetArrow}
+                title="Objetivo"
+                content="O objetivo será incentivar e facilitar a prática de exercícios físicos, expondo exercícios simples e de fácil execução, promovendo a saúde e o bem-estar dos idosos. "
+            />
+            <CardInfo
+                icon={RiHeartPulseLine}
+                title="Impacto na saúde"
+                content="Com o Senior TechFit facilitando a prática de exercício físico, os idosos beneficiarão em termos da sua saúde cardiovascular, do controle de doenças crônicas e do seu bem-estar mental."
+            />
+            <CardInfo
+                icon={GrGroup}
+                title="Impacto social"
+                content="Na sociedade, o incentivo ao estilo de vida ativo para idosos reduz a sobrecarga no sistema de saúde e promove uma comunidade mais integrada, com maior interação social e menos isolamento."
+            />
         </section>
     );
 }
