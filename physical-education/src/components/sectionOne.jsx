@@ -1,12 +1,11 @@
-import { Header } from "./header";
+import { RiArrowDownWideLine } from "react-icons/ri";
 
 export default function SectionOne() {
     return (
         <section
             id="#"
-            className="sm:bg-[url('./assets/bg-seniors.png')] bg-gradient-to-b from-[#16223D] to-gray-950 min-w-full h-[800px] bg-cover bg-no-repeat py-4"
+            className="sm:bg-[url('./assets/bg-seniors.png')] bg-gradient-to-b from-[#16223D] to-gray-950 min-w-full h-[800px] bg-cover bg-no-repeat py-4 max-sm:flex max-sm:flex-col max-sm:items-center max-sm:justify-around"
         >
-            <Header />
             <div className="mx-14 max-sm:mx-8">
                 <section
                     data-aos="fade-right"
@@ -28,6 +27,16 @@ export default function SectionOne() {
                     </p>
                 </section>
             </div>
+                    <a
+                        href="#about"
+                        className="cursor-pointer sm:hidden"
+                        data-aos="fade-left"
+                    >
+                        <RiArrowDownWideLine
+                            size={65}
+                            className="text-white hover:text-[#EA9F0C]"
+                        />
+                    </a>
         </section>
     );
 }
